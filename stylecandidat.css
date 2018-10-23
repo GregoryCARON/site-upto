@@ -3,7 +3,7 @@ body {
     color: deepskyblue;
 }
 header {
-    position: fixed;
+
     top: 0;
     left: 0;
     width: 100%;
@@ -20,7 +20,7 @@ header a, a:link, a:hover, a:focus, a:active, a:visited {
 
 }
 footer {
-    position: fixed;
+
     bottom: 0;
     left: 0;
     width: 100%;
@@ -31,10 +31,18 @@ footer {
 }
 
 #contenu {
-    margin-top: 275px;
+    margin-top: 120px;
     width: 50%;
 }
 #ombre {
     box-shadow: 10px 10px 30px orange !important;
 }
 
+#methode {
+    margin-top: 50px;
+    width: 50%;
+}
+
+#pedago {
+    margin-top: 50px;
+}
