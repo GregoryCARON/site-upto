@@ -14,31 +14,68 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-
+    <style>
+        body {
+            text-align: justify;
+            z-index: 2;
+            margin-bottom: 15%;
+        }
+        .formation {
+            position: relative;
+            top: 10%;
+        }
+        .technos {
+            margin: 3%;
+        }
+        header {
+            z-index: 1;
+        }
+        footer {
+            z-index: 3;
+        }
+    </style>
 </head>
 <body>
 
 <header id="ombre">
-    <a href="Accueil.html" title="Accueil">Accueil</a> <a href="Formation.html" title="formation">Formation</a> <a href="Promo.html" title="Promo">Promo</a> <a href="Candidats.html" title="Candidats">Candidats</a> <a href="Contact.html" title="Contact">Contact</a>
+    <img src="images/logo_ecn.jpg" alt="Up To"><a id="padding" href="Accueil.html" title="Accueil">Accueil</a>
+    <a id="padding" href="Formation.html" title="formation">Formation</a>
+    <a id="padding" href="Promo.html" title="Promo">Promo</a>
+    <a id="padding" href="Candidats.html" title="Candidats">Candidats</a>
+    <a id="padding" href="Remerciements.html" title="Remerciements">Remerciements</a>
+    <a id="padding" href="Contact.html" title="Contact">Contact</a>
 </header>
 <div class="container mt-3" id="contenu">
     <div class="row">
-        <div class="col-sm-9">
-            <section>
-                <h2>Programme</h2>
-                <div class="kaeritai">
-                    De manière autonome, les apprenants apprendront à créer des sites fonctionnelles et dynamiques. Le travail en groupe sera privilégié.
+        <div class="col-sm-8">
+            <section class="formation">
+                <div>
+                    <h2>Programme</h2>
+                        De manière autonome, les apprenants apprendront à créer des sites fonctionnelles et dynamiques. Le travail en groupe sera privilégié.
                 </div>
                 <br><br><br><br><br>
-                <h2>Technos</h2>
-                <div class="kaeritai">
-                    Tout au long de leur apprentissage, les participants apprendront l'utilisation des langages, frameworks et logiciels utilent à la création d'un site web moderne.
-                </div>
+
+
             </section>
         </div>
-        <div class="col-sm-3">
-            <section>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam doloribus dolorum, eligendi iusto nesciunt quibusdam sit? Alias, debitis dicta dolore ea exercitationem fugiat ipsa magni minima perspiciatis quae repellat repellendus repudiandae sapiente, sequi similique soluta tempora veniam voluptas voluptate?
+        <div class="col-sm-4">
+            <section class="formation">
+                <div>
+                    <h2>Technos</h2>
+                    Tout au long de leur apprentissage, les participants apprendront l'utilisation des langages, frameworks et logiciels utilent à la création d'un site web moderne.
+                    <br><br>
+                    <img class="technos" src="images/technos/html5.png"><img class="technos" src="images/technos/css3.png">
+                    <br><br>
+                    <img class="technos" src="images/technos/javascript.png"><img class="technos" src="images/technos/php.png">
+                    <br><br>
+                    <img class="technos" src="images/technos/bootstrap-3.png"><img class="technos" src="images/technos/angular.png">
+                    <br><br>
+                    <img class="technos" src="images/technos/jquery.png"><img class="technos" src="images/technos/mysql-original.png">
+                    <br><br>
+                    <img class="technos" src="images/technos/github-1.png"><img class="technos" src="images/technos/wordpress.png">
+                    <br><br>
+                    <img class="technos" src="images/technos/symfony.png"><img class="technos" src="images/technos/ubuntu.png">
+                </div>
             </section>
         </div>
     </div>
