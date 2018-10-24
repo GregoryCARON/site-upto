@@ -57,6 +57,7 @@ footer {
 }
 
 #popup {
+    position: absolute;
     display: block;
     background-color: orange;
     border-radius: 20px;
