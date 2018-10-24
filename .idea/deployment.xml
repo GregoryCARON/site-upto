@@ -2,10 +2,10 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="David">
+      <paths name="gregoryc">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/site-upto" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
