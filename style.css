@@ -69,3 +69,9 @@ footer {
     left: 40%;
     margin: 0 auto;
 }
+#candidat img {
+    width: 150px;
+    border: 0;
+    box-shadow: 10px 10px 30px #02C7CC !important;
+    border-radius: 10px;
+}
