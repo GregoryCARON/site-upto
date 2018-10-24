@@ -19,6 +19,8 @@
 
 </head>
 <body>
+
+
 <div class="container" id="contenu">
     <header class="row ombre">
         <div class="col-sm-2 text-center">
@@ -49,7 +51,7 @@
             <form method="post" action="contact.html" enctype="multipart/form-data">
                 <p><label>Choississez un service</label></p>
                 <p>
-                    <select name="email" class="btn border" value="1">
+                    <select name="email" class="btn border ombre" value="1">
                         <option>Sélectionner votre destinataire...</option>
                         <optgroup label="Directeur Face Thièrache"><option>Sébastien Dumont</option></optgroup>
                         <optgroup label="Chargée de Mission Face Thièrache"><option>Charlotte Lienard</option></optgroup>
@@ -57,16 +59,16 @@
                     </select>
                 </p>
                 <p><label>Votre Nom*</label></p>
-                <p><input name="nom" type="text"></p>
+                <p><input name="nom" type="text" class="ombre"></p>
                 <p><label>Votre Prénom*</label></p>
-                <p><input name="prenom" type="text"></p>
+                <p><input name="prenom" type="text" class="ombre"></p>
                 <p><label>Votre Courriel*</label></p>
-                <p><input name="themail" type="email"></p>
+                <p><input name="themail" type="email" class="ombre"></p>
                 <p><label>Sujet*</label></p>
-                <p><input name="sujet" type="text"></p>
+                <p><input name="sujet" type="text" class="ombre"></p>
                 <p><label>Votre message*</label></p>
                 <p>
-                    <textarea name="txt"></textarea>
+                    <textarea name="txt" class="ombre"></textarea>
                 </p>
                 <p><label>Pièce Jointe (si besoin, max 7Mo, jpg ou pdf)</label></p>
                 <p><input name="pieceJointe" type="file"></p>
@@ -95,7 +97,7 @@
         <div style="text-align:center;">
 
             <!-- --- 1er module de personne --- -->
-            <div class="annonces_accueil">
+            <div class="annonces_accueil ombre">
 
                 <div class="bloc_thumb">
                     <a href=""><img class="thumb " alt="Photos privées" src="https://cdn2.kompass.com/_ui/desktop/theme-kompass/images/ficheEntre/contactM.png"></a>
@@ -107,7 +109,7 @@
 
 
             <!-- --- 2eme module de personne --- -->
-            <div class="annonces_accueil">
+            <div class="annonces_accueil ombre">
 
                 <div class="bloc_thumb">
                     <a href=""><img class="thumb " alt="Photos privées" src="http://www.bcgfi.be/new/wp-content/uploads/2014/06/avatar_femme.png"></a>
@@ -121,7 +123,7 @@
 
 
             <!-- --- 3eme module de personne --- -->
-            <div class="annonces_accueil">
+            <div class="annonces_accueil ombre">
 
                 <div class="bloc_thumb">
                     <a href=""><img class="thumb " alt="Photos privées" src="https://cdn2.kompass.com/_ui/desktop/theme-kompass/images/ficheEntre/contactM.png"></a>
@@ -155,6 +157,9 @@
     </div>
 </div>
 <footer class="ombre">© UpTo Fourmies</footer>
+
+<span style="color: yellow;background-color: rgb(0,0,0);position: fixed;bottom: 0;z-index: 1;font-size: 28px;font-family: Verdana;"> UpTo Fourmies INFO :  </span>
+<marquee style="color: yellow;background-color: #040505;position: fixed;bottom: 0;font-size: 28px;display: inline"><b>Inauguration le 16 novembre 2018 à 11h</b></marquee>
 
 </body>
 </html>
