@@ -128,3 +128,10 @@ a:active, a:hover {
 figcaption {
     text-align: center;
 }
+.logo {
+    height: 259px;
+    width: 400px;
+}
+.en_tete {
+    width: 1125px;
+}
