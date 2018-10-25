@@ -78,10 +78,9 @@ footer {
     border-radius: 10px;
 }
 
-<<<<<<< HEAD
 .centragediv {
     padding-top: 110px;
-=======
+}
 .overlay {
     background: rgba(0,0,0,0.5);
     position: fixed;
@@ -124,5 +123,4 @@ a:hover {
 }
 a:active, a:hover {
     outline: 0;
->>>>>>> 14f96a42019bc0aa5765c2ab3ce6c0258352f586
 }
