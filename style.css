@@ -124,3 +124,7 @@ a:hover {
 a:active, a:hover {
     outline: 0;
 }
+
+figcaption {
+    text-align: center;
+}
