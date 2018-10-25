@@ -39,18 +39,18 @@
         <div class="col-sm-12">
             <article>
     <!-- -------------------- DEBUT CONTENU ICI ----------------------- -->
-<div class="row">
+<div class="row mt-5">
     <!-- Formulaire -->
-    <div class="col-7">
+    <div class="col-5">
 
 
 
 
         <div id="contenuMain">
-            <h2>Contacter-Nous : </h2>
+            <h2>Contactez-Nous : </h2>
             <form method="post" action="contact.html" enctype="multipart/form-data">
-                <p><label>Choississez un service</label></p>
-                <p>
+                <p><label>Choisissez un service</label><br>
+
                     <select name="email" class="" value="1">
                         <option>Sélectionner votre destinataire...</option>
                         <optgroup label="Directeur Face Thièrache"><option>Sébastien Dumont</option></optgroup>
@@ -58,20 +58,19 @@
                         <optgroup label="Formateur"><option>Simon Stien</option></optgroup>
                     </select>
                 </p>
-                <p><label>Votre Nom*</label><input name="nom" type="text" class=""></p>
-                <p><label>Votre Prénom*</label><input name="prenom" type="text" class=""></p>
-                <p><label>Votre Courriel*</label><input name="themail" type="email" class=""></p>
-                <p><label>Sujet*</label><input name="sujet" type="text" class=""></p>
-                <p><label>Votre message*</label><textarea name="txt" class=""></textarea></p>
-                <p><label>Pièce Jointe (max 7Mo, jpg ou pdf)</label><input name="pieceJointe" type="file"></p>
+                <p><label>Votre Nom*</label><br><input name="nom" type="text" required="required" class=""></p>
+                <p><label>Votre Prénom*</label><br><input name="prenom" type="text" required="required" class=""></p>
+                <p><label>Votre Courriel*</label><br><input name="themail" required="required" type="email" class=""></p>
+                <p><label>Sujet*</label><br><input name="sujet" type="text" required="required" class=""></p>
+                <p><label>Votre message*</label><br><textarea name="txt" required="required" class=""></textarea></p>
+                <p><label>Pièce Jointe (max 10Mo, jpg ou pdf)</label><br><input name="pieceJointe" type="file"></p>
 
-                <p><input class="" name="antiCyber" type="text"></p>
                 <input name="contact" value="ok" type="hidden">
                 <p><input class="btnEnvoie" type="submit"></p>
+
+                <p><i>*Champ Obligatoire</i></p>
             </form>
         </div>
-
-
 
 
 
@@ -83,30 +82,30 @@
 
 
     <!-- Personne -->
-    <div class="col-5">
+    <div class="col-7">
 
 
-        <div style="text-align:center;">
+        <div class="text-center">
 
             <!-- --- 1er module de personne --- -->
-            <div class="annonces_accueil ombre">
+            <div class="profil mt-5 mb-4">
 
                 <div class="bloc_thumb">
-                    <a href=""><img class="thumb " alt="Photos privées" src="https://cdn2.kompass.com/_ui/desktop/theme-kompass/images/ficheEntre/contactM.png"></a>
+                    <a href=""><img class="thumb" alt="Photos" src="https://cdn2.kompass.com/_ui/desktop/theme-kompass/images/ficheEntre/contactM.png"></a>
                 </div>
-                <a class="titreannonce" href="">Sébastien Dumont</a><br><i><span style="color:#162a83; font-size:14px; font-weight:bold;">Statut : Directeur Face Thièrache</span> </i>
+                <a class="titre_profil" href="">Sébastien Dumont</a><br><i><span style="color:#162a83; font-size:14px; font-weight:bold;">Statut : Directeur Face Thièrache</span> </i>
 
                 <br><p>description...</p>
             </div>
 
 
             <!-- --- 2eme module de personne --- -->
-            <div class="annonces_accueil ombre">
+            <div class="profil mb-4">
 
                 <div class="bloc_thumb">
-                    <a href=""><img class="thumb " alt="Photos privées" src="http://www.bcgfi.be/new/wp-content/uploads/2014/06/avatar_femme.png"></a>
+                    <a href=""><img class="thumb" alt="Photos" src="http://www.bcgfi.be/new/wp-content/uploads/2014/06/avatar_femme.png"></a>
                 </div>
-                <a class="titreannonce" href="">Charlotte Lienard</a><br><i><span style="color:#162a83; font-size:14px; font-weight:bold;">Statut : Chargée de Mission Face Thièrache</span></i>
+                <a class="titre_profil" href="">Charlotte Lienard</a><br><i><span style="color:#162a83; font-size:14px; font-weight:bold;">Statut : Chargée de Mission Face Thièrache</span></i>
 
                 <br><p>description...</p>
             </div>
@@ -115,14 +114,15 @@
 
 
             <!-- --- 3eme module de personne --- -->
-            <div class="annonces_accueil ombre">
+            <div class="profil">
 
                 <div class="bloc_thumb">
-                    <a href=""><img class="thumb " alt="Photos privées" src="https://cdn2.kompass.com/_ui/desktop/theme-kompass/images/ficheEntre/contactM.png"></a>
+                    <a href=""><img class="thumb" alt="Photos" src="https://cdn2.kompass.com/_ui/desktop/theme-kompass/images/ficheEntre/contactM.png"></a>
                 </div>
-                <a class="titreannonce" href="">Simon Stien</a><br><i><span style="color:#162a83; font-size:14px; font-weight:bold;">Statut : Formateur</span> </i>
+                <a class="titre_profil" href="">Simon Stien</a><br>
+                <i><span style="color:#162a83; font-size:14px; font-weight:bold;">Statut : Formateur</span> </i>
 
-                <br><p>Simon Stien est notre formateur de la 1ere promotion 2018.</p>
+                <br><p>Formateur patient de la 1ere promotion 2018.</p>
             </div>
         </div>
 
