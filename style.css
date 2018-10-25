@@ -11,6 +11,7 @@ header {
     width: 100%;
     height: auto;
     background-color: #02979C;
+    line-height: 66px;
     border-color: orange;
     color: black;
     text-align: center;
@@ -75,4 +76,48 @@ footer {
     border: 0;
     box-shadow: 10px 10px 30px #02C7CC !important;
     border-radius: 10px;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    z-index: 99;
+    display: block;
+}
+.popUp {
+    box-shadow: 10px 10px 30px #02C7CC !important;
+    border-radius: 10px;
+    width: 440px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    padding: 30px;
+    background: #fff;
+    top: 25%;
+}
+.popUp .close {
+    background: transparent url("images/promo_2018/logos/icon-delete.png") no-repeat scroll 0 0;
+    display: block;
+    height: 26px;
+    margin-right: 11px;
+    position: absolute;
+    width: 26px;
+    right: 0;
+    top: 10px;
+}
+.popUp {
+    text-align: left;
+}
+a:hover {
+    color: #004a68;
+    text-decoration: none;
+}
+a:active, a:hover {
+    outline: 0;
 }
