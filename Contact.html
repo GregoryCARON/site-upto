@@ -31,15 +31,15 @@
     </header>
     <div class="row mt-3">
         <div class="col-sm-12">
-            <article>
+            <div>
     <!-- -------------------- DEBUT CONTENU ICI ----------------------- -->
-<div class="row mt-5">
+<div class="row mt-4">
     <!-- Formulaire -->
     <div class="col-5">
 
         <div id="contenuMain">
-            <h2>Contactez-Nous : </h2>
-            <form method="post" enctype="multipart/form-data">
+            <h2>Contactez-nous : </h2><br>
+            <form method="post">
                 <p><label>Choisissez un service</label><br>
 
                     <select name="email" title="destinataire">
@@ -49,12 +49,12 @@
                         <optgroup label="Formateur"><option>Simon Stien</option></optgroup>
                     </select>
                 </p>
-                <p><label>Votre Nom*</label><br><input name="nom" type="text" required="required" title="nom" class=""></p>
-                <p><label>Votre Prénom*</label><br><input name="prenom" type="text" required="required" title="prenom" class=""></p>
-                <p><label>Votre Courriel*</label><br><input name="themail" required="required" type="email" title="email" class=""></p>
-                <p><label>Sujet*</label><br><input name="sujet" type="text" required="required" title="sujet" class=""></p>
-                <p><label>Votre message*</label><br><textarea name="txt" required="required" title="texte" class=""></textarea></p>
-                <p><label>Pièce Jointe (max 10Mo, jpg ou pdf)</label><br><input name="pieceJointe" type="file"></p>
+                <p><label>Votre Nom*</label><br><input name="nom" type="text" required="required" title="nom" size="38"></p>
+                <p><label>Votre Prénom*</label><br><input name="prenom" type="text" required="required" title="prenom" size="38"></p>
+                <p><label>Votre Courriel*</label><br><input name="themail" required="required" type="email" title="email" size="38"></p>
+                <p><label>Sujet*</label><br><input name="sujet" type="text" required="required" title="sujet" size="38"></p>
+                <p><label>Votre message*</label><br><textarea name="txt" required="required" title="texte" style="width: 260px"></textarea></p>
+                <p><label>Pièce Jointe (max 10Mo, jpg ou pdf)</label><br><input name="pieceJointe" type="file"></p><br>
 
                 <input name="contact" value="ok" type="hidden">
                 <p><input class="btnEnvoie" type="submit"></p>
@@ -115,7 +115,7 @@
 </div>
 
                 <!-- FIN CONTENU ICI -->
-            </article>
+            </div>
 
         </div>
     </div>
