@@ -72,9 +72,30 @@
 
             <footer class="ombre">© UpTo Fourmies</footer>
 
-            <div id="popup" class="text-center ombre"><strong><em><br/>Bonjour !<br/></em></strong>
-                Bienvenue sur le site de l'école du numérique de fourmies<br/><br/>
-                <button onclick="popup_fermer()" class="btn">fermer</button></div>
+            <div class="overlay" id="pop-up" onclick="popup_fermer()">
+
+                <div class="popUp" style="width: 700px;">
+
+                    <a class="close closePopup" onclick="popup_fermer()"></a>
+
+                    <div id="content" onclick="popup_fermer()">
+
+                        <p class="blockOption-2 text-center" style="max-height: 400px; overflow-y: auto;">
+
+                            Bienvenue sur le site<br/><br/>
+
+                            UpTo Fourmies<br/><br/>
+
+                            L'école du numérique
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
             <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
