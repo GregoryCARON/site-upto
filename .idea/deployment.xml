@@ -2,7 +2,7 @@
 <project version="4">
   <component name="PublishConfigData">
     <serverData>
-      <paths name="UpTo">
+      <paths name="gregoryc">
         <serverdata>
           <mappings>
             <mapping deploy="/site-upto" local="$PROJECT_DIR$" web="/" />
